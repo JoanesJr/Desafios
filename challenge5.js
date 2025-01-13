@@ -13,7 +13,7 @@ const reverseString = (input) => {
         reverseInput[splitInput.length-(index+1)] = character;
     });
 
-    return reverseInput.join();
+    return reverseInput.join('');
 }
 
 console.log(reverseString('paralelepipedo'));
